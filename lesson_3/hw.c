@@ -117,7 +117,7 @@ void get_password(const char* login, struct string_32b_t* password) {
     }
   }
 
-  fprintf(stderr, "get_password: ERROR: hash not found");
+  fprintf(stderr, "get_password: ERROR: hash not found \n");
 }
 
 
